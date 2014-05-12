@@ -1,0 +1,298 @@
+@import 'variables'
+@import 'vendor/bourbon/bourbon'
+@import 'vendor/grid-settings'
+@import 'vendor/neat/neat'
+@import 'vendor/mmenu'
+
+
+//  ===============
+//  = Scaffolding =
+//  ===============
+
+body
+  font:
+    family: $type
+    weight: 400
+    size: 1em
+  background: $pale-horse
+  color: $mud
+
+body, input, button
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+
+img
+  max-width: 100%
+
+a
+  text-decoration: none
+  color: $pumpkin
+  &:hover
+    color: $purple
+
+h1, h2, h3, h4, h5
+  font:
+    weight: 400
+    family: $alt-type
+  margin: 0 0 .3em 0
+  line-height: 1.1em
+  small
+    font-size: .75em
+
+h1
+  font-size: 5rem
+  color: rgba(white, .8)
+  line-height: 1em
+  +media($baby-bear)
+    font-size: 2.5rem
+
+h2
+  font-size: 1.75rem
+  margin: 1.3em 0 .2em 0
+  +media($baby-bear)
+    font-size: 1.3rem
+
+h3
+  font-size: 1.5rem
+  +media($baby-bear)
+    font-size: 1.2rem
+
+h4
+  font-size: 1.15rem
+  color: $purple
+  margin: 0
+
+h5
+  font-size: 1rem
+
+p, li
+  font-size: 1.05em
+  line-height: 1.4em
+
+p
+  margin: 0 0 .7em 0
+  &:last-child
+    margin: 0
+
+button
+  +btn
+
+blockquote
+  font:
+    size: 1.05rem
+    style: italic
+  line-height: 1.4em
+  margin: 1.5em 0
+  padding-left: 1em
+  border-left: $border
+
+hr
+  border: none
+  border-top: $border
+  margin: 9px 0 10px 0
+  height: 1px
+
+
+
+//  ===========
+//  = Globals =
+//  ===========
+
+.nav
+  background: rgba(white, .15)
+  box-shadow: 0em .3em .5em rgba(black, .13)
+  border-bottom: $border
+  position: relative
+  margin-bottom: 2em
+  .logo
+    +span-columns(4)
+    img
+      max-width: em(115)
+      height: 81px // ie svg issues
+      margin: 0 auto
+      padding-top: .2em
+      display: block
+  a:hover
+    border: none
+  button
+    float: right
+  .container
+    height: em(70)
+
+div.wrapper
+  max-width: em(1440)
+  background: $pale-horse
+  margin: 0 auto
+  +media($papa-bear)
+    border-left: $border
+    border-right: $border
+
+div.container
+  +outer-container
+  +media($mama-bear)
+  padding: 0 1em
+
+section.main
+  +main
+  &:nth-child(odd)
+    background: white
+
+.back-to-top
+  display: none
+  +transition(all, 0.5s)
+  position: fixed
+  top: .7em
+  right: .7em
+  z-index: 1000
+  a
+    width: 2em
+    height: 2em
+    // border-radius: 0.25em
+    background: rgba(black, 0.75)
+    +transition(all, 0.2s)
+    display: block
+    color: lighten($mud, 20%)
+    &:hover
+      background: rgba(black, 0.95)
+      +transition(all, 0.2s)
+    i
+      display: block !important
+      text-align: center
+      +vertical-align
+
+
+
+//  =================
+//  = page specific =
+//  =================
+
+div.menu, div.tickets
+  +span-columns(4)
+  +vertical-align
+
+div.menu
+  font-size: 1.2rem
+  a
+    color: #2c2c2c
+    padding: .3em .5em .2em
+    background: rgba(white, .5)
+    +transition(all, .2s)
+    &:hover
+      background: rgba(white, .7)
+      +transition(all, .2s)
+  +media($baby-bear)
+    +span-columns(2)
+
+div.tickets
+  +media($baby-bear)
+    +span-columns(6)
+
+.hero
+  background: image_url('cow.jpg') no-repeat center top
+  min-height: em(650)
+  border-bottom: 1em solid #2c2c2c
+  position: relative
+  +media($baby-bear)
+    background: image_url('cow-sm.jpg') no-repeat center top
+    min-height: em(370)
+  header
+    +span-columns(6)
+    +omega()
+    +media($baby-bear)
+      +span-columns(12)
+  h2
+    color: rgba(white, .8)
+    border-top: $border-light
+    border-bottom: $border-light
+    display: inline
+    padding: .3em 0
+
+  .details
+    position: absolute
+    background: rgba($mustard, .5)
+    bottom: 0
+    h3
+      color: white
+      margin: 0
+      padding: .3em .7em
+      font-size: 1.5rem
+
+.callouts
+  margin-top: 2em
+  figure
+    padding: .75em
+    border: $border
+    background: white
+    margin: 0 0 1em 0
+  .callout
+    +span-columns(6)
+    +media($baby-bear)
+      +span-columns(12)
+      margin-top: 1.4em
+    p
+      font-size: .9rem
+    h4
+      margin-bottom: .5em
+
+.schedule
+  margin-top: 2.5em
+  h3
+    border-bottom: $border
+    padding-bottom: .5em
+  p, .time, li
+    font-size: .9rem
+  ul
+    margin: .2em 0
+    padding: 0
+    list-style: none
+
+  .row
+    +outer-container()
+    &:nth-child(odd)
+      background: $pale-horse
+    +media($baby-bear)
+      margin-bottom: 1em
+      ul
+        margin-bottom: 0
+
+  .time, .details
+    padding: .7em .3em
+    vertical-align: top
+
+  .time
+    padding-right: 1em
+    +span-columns(2)
+    +media($baby-bear)
+      +span-columns(12)
+      padding-left: .5em
+      border-left: 7px solid $mustard
+      border-bottom: $border-dotted
+      padding-right: 0
+
+  .details
+    +span-columns(10)
+    +omega()
+    +media($baby-bear)
+      +span-columns(12)
+
+  h5
+    border-top: $border-dotted
+    padding-top: .3em
+    margin-top: .3em
+
+li.block
+  +span-columns(3)
+  +omega(4n)
+  margin-top: 1.5em
+  background: white
+  +media($baby-bear)
+    +span-columns(6)
+    +omega(2n)
+  p
+    font-size: .85rem
+    padding: 0 .8em
+  h3
+    font-size: 1rem
+    padding: .3em
+
+
