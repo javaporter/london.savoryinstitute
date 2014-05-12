@@ -1,0 +1,46 @@
+!!!5
+%html
+  %head
+    %meta{charset: 'utf-8'}
+    %meta{content: 'ie=edge', 'http-equiv' => 'x-ua-compatible'}
+    %meta{content: 'width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1', name: 'viewport'}
+    %link{:href => '/assets/favicon.ico?v=7', :rel => 'shortcut icon'}
+    %title Putting Grasslands to Work | Savory Institute
+    =stylesheet_link_tag '/assets/bower_components/normalize-css/normalize.css'
+    =stylesheet_link_tag '//fonts.googleapis.com/css?family=Quattrocento|Quattrocento+Sans:400,700,400italic,700italic'
+    =stylesheet_link_tag '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'
+    =stylesheet_link_tag 'app'
+  %body
+    %div
+      .wrapper#top-of-page
+        -# back to top
+        #back-to-top.back-to-top
+          %a{href: '#top-of-page'}
+            %i.fa.fa-arrow-up
+
+        =yield
+
+    %nav#nav
+      %ul
+        %li
+          %a{href: '#overview'}
+            %i.fa.fa-home
+            Overview
+        %li
+          %a{href: '#speaker-bios'}
+            %i.fa.fa-users
+            Speaker Bios
+        %li
+          %a{href: '#schedule'}
+            %i.fa.fa-calendar
+            Schedule
+        %li
+          %a{href: 'mailto:contact@savoryinstitute.org'}
+            %i.fa.fa-envelope
+            Contact Us
+
+    =javascript_include_tag '/assets/bower_components/jquery/dist/jquery.min.js'
+    =javascript_include_tag 'custom.modernizr.js'
+    =javascript_include_tag 'jquery.mmenu.min.all.js'
+    =javascript_include_tag 'jquery.stellar.min.js'
+    =javascript_include_tag 'app.js'
