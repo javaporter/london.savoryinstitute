@@ -1,0 +1,11 @@
+= wrap_layout :layout do
+  .wrapper
+    %section.speaker-bio
+      .container
+        =yield
+
+    %section.main
+      .container
+        =link_to '/' do
+          %i.fa.fa-caret-left
+          Back
