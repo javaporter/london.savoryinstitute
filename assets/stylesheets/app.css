@@ -423,7 +423,7 @@ h1 {
   font-size: 5rem;
   color: rgba(255, 255, 255, 0.8);
   line-height: 1em; }
-  @media screen and (min-width: new-breakpoint(max-width 767px)) {
+  @media screen and (max-width: 767px) {
     /* line 42, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
     h1 {
       font-size: 2.5rem; } }
@@ -432,7 +432,7 @@ h1 {
 h2 {
   font-size: 1.75rem;
   margin: 1.3em 0 0.2em 0; }
-  @media screen and (min-width: new-breakpoint(max-width 767px)) {
+  @media screen and (max-width: 767px) {
     /* line 49, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
     h2 {
       font-size: 1.3rem; } }
@@ -440,7 +440,7 @@ h2 {
 /* line 55, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
 h3 {
   font-size: 1.5rem; }
-  @media screen and (min-width: new-breakpoint(max-width 767px)) {
+  @media screen and (max-width: 767px) {
     /* line 55, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
     h3 {
       font-size: 1.2rem; } }
@@ -487,7 +487,7 @@ button {
     padding-right: 0.5em;
     margin-right: 0.3em;
     border-right: 1px dotted rgba(255, 255, 255, 0.4); }
-  @media screen and (min-width: new-breakpoint(max-width 767px)) {
+  @media screen and (max-width: 767px) {
     /* line 49, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/_variables.sass */
     button .fa {
       display: none; } }
@@ -546,7 +546,7 @@ div.wrapper {
   max-width: 90em;
   background: #efefef;
   margin: 0 auto; }
-  @media screen and (min-width: new-breakpoint(min-width 1441px)) {
+  @media screen and (min-width: 1441px) {
     /* line 122, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
     div.wrapper {
       border-left: 1px solid rgba(0, 0, 0, 0.2);
@@ -573,7 +573,7 @@ section.main {
   /* line 25, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/_variables.sass */
   section.main:nth-child(odd) {
     background: #efefef; }
-  @media screen and (min-width: new-breakpoint(max-width 767px)) {
+  @media screen and (max-width: 767px) {
     /* line 135, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
     section.main {
       padding: 2em 0; } }
@@ -649,7 +649,7 @@ div.menu {
       -webkit-transition: all, 0.2s;
       -moz-transition: all, 0.2s;
       transition: all, 0.2s; }
-  @media screen and (min-width: new-breakpoint(max-width 767px)) {
+  @media screen and (max-width: 767px) {
     /* line 173, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
     div.menu {
       float: left;
@@ -660,7 +660,7 @@ div.menu {
       div.menu:last-child {
         margin-right: 0; } }
 
-@media screen and (min-width: new-breakpoint(max-width 767px)) {
+@media screen and (max-width: 767px) {
   /* line 186, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
   div.tickets {
     float: left;
@@ -677,7 +677,7 @@ div.menu {
   min-height: 40.625em;
   border-bottom: 1em solid #2c2c2c;
   position: relative; }
-  @media screen and (min-width: new-breakpoint(max-width 767px)) {
+  @media screen and (max-width: 767px) {
     /* line 190, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
     .hero {
       background: url("/assets/images/cow-sm.jpg") no-repeat center top;
@@ -692,7 +692,7 @@ div.menu {
     /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
     .hero header:last-child {
       margin-right: 0; }
-    @media screen and (min-width: new-breakpoint(max-width 767px)) {
+    @media screen and (max-width: 767px) {
       /* line 198, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
       .hero header {
         float: left;
@@ -739,7 +739,7 @@ div.menu {
     /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
     .callouts .callout:last-child {
       margin-right: 0; }
-    @media screen and (min-width: new-breakpoint(max-width 767px)) {
+    @media screen and (max-width: 767px) {
       /* line 227, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
       .callouts .callout {
         float: left;
@@ -788,7 +788,7 @@ div.menu {
     /* line 251, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
     .schedule .row:nth-child(odd) {
       background: #efefef; }
-    @media screen and (min-width: new-breakpoint(max-width 767px)) {
+    @media screen and (max-width: 767px) {
       /* line 249, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
       .schedule .row {
         margin-bottom: 1em; }
@@ -809,7 +809,7 @@ div.menu {
     /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
     .schedule .time:last-child {
       margin-right: 0; }
-    @media screen and (min-width: new-breakpoint(max-width 767px)) {
+    @media screen and (max-width: 767px) {
       /* line 262, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
       .schedule .time {
         float: left;
@@ -833,7 +833,7 @@ div.menu {
     /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
     .schedule .details:last-child {
       margin-right: 0; }
-    @media screen and (min-width: new-breakpoint(max-width 767px)) {
+    @media screen and (max-width: 767px) {
       /* line 272, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
       .schedule .details {
         float: left;
@@ -866,7 +866,7 @@ li.block {
   /* line 75, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_omega.scss */
   li.block:nth-child(4n+1) {
     clear: left; }
-  @media screen and (min-width: new-breakpoint(max-width 767px)) {
+  @media screen and (max-width: 767px) {
     /* line 283, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
     li.block {
       float: left;
