@@ -74,6 +74,10 @@ p
   &:last-child
     margin: 0
 
+ul
+  margin: 0 0 1em 0
+  padding: 0 0 0 1.2em
+
 button
   +btn
 
@@ -89,7 +93,7 @@ blockquote
 hr
   border: none
   border-top: $border
-  margin: 9px 0 10px 0
+  margin: 2em 0
   height: 1px
 
 
@@ -134,8 +138,11 @@ div.container
 
 section.main
   +main
-  &:nth-child(odd)
+  &:nth-child(even)
     background: white
+
+.photo-divider
+  margin: 2em 0
 
 .back-to-top
   display: none
@@ -223,7 +230,6 @@ div.tickets
 
 // two primary callouts
 .callouts
-  margin-top: 2em
   figure
     padding: .75em
     border: $border
@@ -321,6 +327,7 @@ li.block
 .speaker-bio
   @extend .main
   border-bottom: 4px solid $pumpkin
+  margin-bottom: 1.5em
   h1
     background: $mud
     font-size: 1.3rem
