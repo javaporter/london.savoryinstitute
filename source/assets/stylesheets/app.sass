@@ -307,7 +307,7 @@ li.block
   p
     font-size: .85rem
     padding: 0 .8em
-  h3
+  .name
     font-size: 1rem
     padding: .3em
     position: absolute
@@ -315,8 +315,10 @@ li.block
     background: rgba(black, .75)
     width: 100%
     margin: 0
+    line-height: 1.4em
+    font-family: $alt-type
   a
-    color: white
+    color: rgba(white, .8)
   &:hover
     box-shadow: .3em .3em .7em rgba(black, .33)
 
@@ -333,5 +335,6 @@ li.block
     padding: .3em .4em
   img
     float: left
-    padding-right: 1em
-    padding-bottom: .3em
+    margin-right: 1em
+    margin-top: -1em
+    border: $border
