@@ -1,4 +1,4 @@
-/* line 2, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_grid.scss */
+/* line 2, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_grid.scss */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -7,7 +7,7 @@
 /*
 	jQuery.mmenu CSS
 */
-/* line 12, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 12, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-page,
 .mm-fixed-top,
 .mm-fixed-bottom,
@@ -23,7 +23,7 @@
   -o-transition-property: top, right, bottom, left, border;
   transition-property: top, right, bottom, left, border; }
 
-/* line 22, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 22, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 html.mm-opened .mm-page,
 html.mm-opened #mm-blocker {
   left: 0;
@@ -31,30 +31,30 @@ html.mm-opened #mm-blocker {
   margin: 0;
   border: 0px solid rgba(0, 0, 0, 0); }
 
-/* line 34, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 34, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 html.mm-opening .mm-page,
 html.mm-opening #mm-blocker {
   border: 0px solid rgba(100, 100, 100, 0); }
 
-/* line 42, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 42, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-menu .mm-hidden {
   display: none; }
 
-/* line 49, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 49, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-fixed-top,
 .mm-fixed-bottom {
   position: fixed;
   left: 0; }
 
-/* line 54, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 54, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-fixed-top {
   top: 0; }
 
-/* line 58, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 58, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-fixed-bottom {
   bottom: 0; }
 
-/* line 66, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 66, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 html.mm-opened .mm-page,
 .mm-menu > .mm-panel {
   -webkit-box-sizing: border-box;
@@ -63,20 +63,20 @@ html.mm-opened .mm-page,
   -o-box-sizing: border-box;
   box-sizing: border-box; }
 
-/* line 72, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 72, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 html.mm-opened {
   overflow-x: hidden;
   position: relative; }
 
-/* line 79, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 79, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 html.mm-opened .mm-page {
   position: relative; }
 
-/* line 83, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 83, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 html.mm-background .mm-page {
   background: inherit; }
 
-/* line 87, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 87, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 #mm-blocker {
   background: url(data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==) transparent;
   display: none;
@@ -85,16 +85,16 @@ html.mm-background .mm-page {
   position: fixed;
   z-index: 999999; }
 
-/* line 99, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 99, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 html.mm-opened #mm-blocker,
 html.mm-blocking #mm-blocker {
   display: block; }
 
-/* line 106, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 106, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-menu.mm-current {
   display: block; }
 
-/* line 110, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 110, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-menu {
   background: inherit;
   display: none;
@@ -105,7 +105,7 @@ html.mm-blocking #mm-blocker {
   left: 0;
   top: 0;
   z-index: 0; }
-  /* line 122, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 122, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-menu > .mm-panel {
     background: inherit;
     -webkit-overflow-scrolling: touch;
@@ -119,36 +119,36 @@ html.mm-blocking #mm-blocker {
     top: 0;
     left: 100%;
     z-index: 0; }
-    /* line 139, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+    /* line 139, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
     .mm-menu > .mm-panel.mm-opened {
       left: 0%; }
-    /* line 143, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+    /* line 143, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
     .mm-menu > .mm-panel.mm-subopened {
       left: -40%; }
-    /* line 147, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+    /* line 147, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
     .mm-menu > .mm-panel.mm-highest {
       z-index: 1; }
-    /* line 151, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+    /* line 151, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
     .mm-menu > .mm-panel.mm-hidden {
       display: block;
       visibility: hidden; }
 
-/* line 162, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 162, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-menu .mm-list {
   padding: 20px 0; }
-/* line 166, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 166, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-menu > .mm-list {
   padding: 20px 0 40px 0; }
 
-/* line 171, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 171, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-panel > .mm-list {
   margin-left: -20px;
   margin-right: -20px; }
-  /* line 176, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 176, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-panel > .mm-list:first-child {
     padding-top: 0; }
 
-/* line 183, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 183, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-list,
 .mm-list > li {
   list-style: none;
@@ -156,21 +156,21 @@ html.mm-blocking #mm-blocker {
   padding: 0;
   margin: 0; }
 
-/* line 190, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 190, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-list {
   font: inherit;
   font-size: 16px; }
-  /* line 196, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 196, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-list a,
   .mm-list a:hover {
     text-decoration: none; }
-  /* line 199, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 199, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-list a:hover {
     color: #d2ad14; }
-  /* line 203, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 203, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-list > li {
     position: relative; }
-    /* line 208, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+    /* line 208, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
     .mm-list > li > a,
     .mm-list > li > span {
       text-overflow: ellipsis;
@@ -181,7 +181,7 @@ html.mm-blocking #mm-blocker {
       display: block;
       padding: 10px 10px 10px 20px;
       margin: 0; }
-  /* line 42, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_variables.scss */
+  /* line 42, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_variables.scss */
   .mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-noresults):after {
     content: '';
     border-bottom-width: 1px;
@@ -191,12 +191,12 @@ html.mm-blocking #mm-blocker {
     position: absolute;
     bottom: 0;
     left: 0; }
-  /* line 222, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 222, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-list > li:not(.mm-subtitle):not(.mm-label):not(.mm-noresults):after {
     width: auto;
     position: relative;
     left: auto; }
-  /* line 232, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 232, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-list a.mm-subopen {
     width: 40px;
     height: 100%;
@@ -205,7 +205,7 @@ html.mm-blocking #mm-blocker {
     right: 0;
     top: 0;
     z-index: 2; }
-    /* line 42, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_variables.scss */
+    /* line 42, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_variables.scss */
     .mm-list a.mm-subopen:before {
       content: '';
       border-left-width: 1px;
@@ -215,31 +215,31 @@ html.mm-blocking #mm-blocker {
       position: absolute;
       left: 0;
       top: 0; }
-    /* line 244, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+    /* line 244, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
     .mm-list a.mm-subopen.mm-fullsubopen {
       width: 100%; }
-      /* line 248, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+      /* line 248, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
       .mm-list a.mm-subopen.mm-fullsubopen:before {
         border-left: none; }
-    /* line 255, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+    /* line 255, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
     .mm-list a.mm-subopen + a,
     .mm-list a.mm-subopen + span {
       padding-right: 5px;
       margin-right: 40px; }
-  /* line 264, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 264, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-list > li.mm-selected > a.mm-subopen {
     background: transparent; }
-  /* line 271, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 271, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-list > li.mm-selected > a.mm-fullsubopen + a,
   .mm-list > li.mm-selected > a.mm-fullsubopen + span {
     padding-right: 45px;
     margin-right: 0; }
-  /* line 279, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 279, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-list a.mm-subclose {
     text-indent: 20px;
     padding-top: 30px;
     margin-top: -20px; }
-  /* line 288, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 288, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-list > li.mm-label {
     text-overflow: ellipsis;
     white-space: nowrap;
@@ -249,13 +249,13 @@ html.mm-blocking #mm-blocker {
     text-indent: 20px;
     line-height: 25px;
     padding-right: 5px; }
-  /* line 299, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 299, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-list > li.mm-spacer {
     padding-top: 40px; }
-    /* line 303, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+    /* line 303, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
     .mm-list > li.mm-spacer.mm-label {
       padding-top: 25px; }
-  /* line 311, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 311, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-list a.mm-subopen:after,
   .mm-list a.mm-subclose:before {
     content: '';
@@ -271,32 +271,32 @@ html.mm-blocking #mm-blocker {
     -ms-transform: rotate(-45deg);
     -o-transform: rotate(-45deg);
     transform: rotate(-45deg); }
-  /* line 315, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 315, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-list a.mm-subopen:after {
     border-top: none;
     border-left: none;
     right: 18px; }
-  /* line 320, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 320, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-list a.mm-subclose:before {
     border-right: none;
     border-bottom: none;
     margin-bottom: -15px;
     left: 22px; }
 
-/* line 331, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 331, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-menu.mm-vertical .mm-list .mm-panel {
   display: none;
   padding: 10px 0 10px 10px; }
-  /* line 336, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 336, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-menu.mm-vertical .mm-list .mm-panel li:last-child:after {
     border-color: transparent; }
-/* line 341, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 341, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-menu.mm-vertical .mm-list li.mm-opened > .mm-panel {
   display: block; }
-/* line 345, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 345, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-menu.mm-vertical .mm-list > li.mm-opened > a.mm-subopen {
   height: 40px; }
-  /* line 348, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+  /* line 348, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
   .mm-menu.mm-vertical .mm-list > li.mm-opened > a.mm-subopen:after {
     -webkit-transform: rotate(45deg);
     -moz-transform: rotate(45deg);
@@ -306,84 +306,84 @@ html.mm-blocking #mm-blocker {
     top: 16px;
     right: 16px; }
 
-/* line 9, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
+/* line 9, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
 html.mm-opened .mm-page {
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.5); }
 
-/* line 13, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
+/* line 13, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
 .mm-ismenu {
   background: #333333;
   color: rgba(255, 255, 255, 0.6); }
 
-/* line 22, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
+/* line 22, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
 .mm-menu .mm-list > li:after {
   border-color: rgba(0, 0, 0, 0.15); }
-/* line 30, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
+/* line 30, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
 .mm-menu .mm-list > li > a.mm-subclose {
   background: rgba(0, 0, 0, 0.1);
   color: rgba(255, 255, 255, 0.3); }
-/* line 36, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
+/* line 36, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
 .mm-menu .mm-list > li > a.mm-subopen:after, .mm-menu .mm-list > li > a.mm-subclose:before {
   border-color: rgba(255, 255, 255, 0.3); }
-/* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
+/* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
 .mm-menu .mm-list > li > a.mm-subopen:before {
   border-color: rgba(0, 0, 0, 0.15); }
-/* line 49, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
+/* line 49, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
 .mm-menu .mm-list > li.mm-selected > a:not(.mm-subopen),
 .mm-menu .mm-list > li.mm-selected > span {
   background: rgba(0, 0, 0, 0.1); }
-/* line 54, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
+/* line 54, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
 .mm-menu .mm-list > li.mm-label {
   background: rgba(255, 255, 255, 0.05); }
-/* line 65, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
+/* line 65, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_colors.scss */
 .mm-menu.mm-vertical .mm-list li.mm-opened > a.mm-subopen,
 .mm-menu.mm-vertical .mm-list li.mm-opened > ul {
   background: rgba(255, 255, 255, 0.05); }
 
-/* line 12, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_sizing.scss */
+/* line 12, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_sizing.scss */
 html.mm-opening .mm-page,
 html.mm-opening #mm-blocker,
 html.mm-opening .mm-fixed-top,
 html.mm-opening .mm-fixed-bottom {
   left: 80%; }
 
-/* line 17, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_sizing.scss */
+/* line 17, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_sizing.scss */
 .mm-menu {
   width: 80%; }
 
 @media all and (max-width: 175px) {
-  /* line 22, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_sizing.scss */
+  /* line 22, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_sizing.scss */
   .mm-menu {
     width: 140px; }
 
-  /* line 31, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_sizing.scss */
+  /* line 31, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_sizing.scss */
   html.mm-opening .mm-page,
   html.mm-opening #mm-blocker,
   html.mm-opening .mm-fixed-top,
   html.mm-opening .mm-fixed-bottom {
     left: 140px; } }
 @media all and (min-width: 412.5px) {
-  /* line 38, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_sizing.scss */
+  /* line 38, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_sizing.scss */
   .mm-menu {
     width: 330px; }
 
-  /* line 47, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_sizing.scss */
+  /* line 47, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/inc/_sizing.scss */
   html.mm-opening .mm-page,
   html.mm-opening #mm-blocker,
   html.mm-opening .mm-fixed-top,
   html.mm-opening .mm-fixed-bottom {
     left: 330px; } }
-/* line 366, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 366, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-menu > .mm-list {
   padding-top: 3em; }
 
-/* line 370, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
+/* line 370, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/_mmenu.scss */
 .mm-menu .fa {
   padding-right: .6em;
   margin-right: .3em;
   border-right: dotted rgba(255, 255, 255, 0.23) 1px; }
 
-/* line 12, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 12, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 body {
   font-family: "Quattrocento Sans", sans-serif;
   font-weight: 400;
@@ -391,88 +391,88 @@ body {
   background: #efefef;
   color: #676767; }
 
-/* line 20, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 20, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 body, input, button {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
-/* line 24, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 24, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 img {
   max-width: 100%; }
 
-/* line 27, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 27, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 a {
   text-decoration: none;
   color: #985200; }
-  /* line 30, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 30, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   a:hover {
     color: #7a5383; }
 
-/* line 33, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 33, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 h1, h2, h3, h4, h5 {
   font-weight: 400;
   font-family: "Quattrocento", serif;
   margin: 0 0 0.3em 0;
   line-height: 1.1em; }
-  /* line 39, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 39, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   h1 small, h2 small, h3 small, h4 small, h5 small {
     font-size: 0.75em; }
 
-/* line 42, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 42, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 h1 {
   font-size: 5rem;
   color: rgba(255, 255, 255, 0.8);
   line-height: 1em; }
   @media screen and (max-width: 767px) {
-    /* line 42, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 42, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     h1 {
       font-size: 2.5rem; } }
 
-/* line 49, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 49, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 h2 {
   font-size: 1.75rem;
   margin: 0 0 0.2em 0; }
   @media screen and (max-width: 767px) {
-    /* line 49, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 49, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     h2 {
       font-size: 1.3rem; } }
 
-/* line 55, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 55, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 h3 {
   font-size: 1.5rem; }
   @media screen and (max-width: 767px) {
-    /* line 55, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 55, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     h3 {
       font-size: 1.2rem; } }
 
-/* line 60, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 60, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 h4 {
   font-size: 1.15rem;
   color: #7a5383;
   margin: 0; }
 
-/* line 65, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 65, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 h5 {
   font-size: 1rem; }
 
-/* line 68, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 68, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 p, li {
   font-size: 1.05em;
   line-height: 1.4em; }
 
-/* line 72, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 72, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 p {
   margin: 0 0 0.7em 0; }
-  /* line 74, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 74, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   p:last-child {
     margin: 0; }
 
-/* line 77, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 77, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 ul {
   margin: 0 0 1em 0;
   padding: 0 0 0 1.2em; }
 
-/* line 81, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 81, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 button {
   background: #d2ad14;
   border: 1px solid rgba(0, 0, 0, 0.2);
@@ -481,23 +481,23 @@ button {
   -webkit-transition: all, 0.2s;
   -moz-transition: all, 0.2s;
   transition: all, 0.2s; }
-  /* line 42, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/_variables.sass */
+  /* line 42, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/_variables.sass */
   button:hover {
     background: #dbb515;
     -webkit-transition: all, 0.2s;
     -moz-transition: all, 0.2s;
     transition: all, 0.2s; }
-  /* line 45, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/_variables.sass */
+  /* line 45, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/_variables.sass */
   button i {
     padding-right: 0.5em;
     margin-right: 0.3em;
     border-right: 1px dotted rgba(255, 255, 255, 0.4); }
   @media screen and (max-width: 767px) {
-    /* line 49, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/_variables.sass */
+    /* line 49, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/_variables.sass */
     button .fa {
       display: none; } }
 
-/* line 84, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 84, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 blockquote {
   font-size: 1.05rem;
   font-style: italic;
@@ -506,88 +506,88 @@ blockquote {
   padding-left: 1em;
   border-left: 1px solid rgba(0, 0, 0, 0.2); }
 
-/* line 93, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 93, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 hr {
   border: none;
   border-top: 1px solid rgba(0, 0, 0, 0.2);
   margin: 2em 0;
   height: 1px; }
 
-/* line 105, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 105, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 .nav {
   background: rgba(255, 255, 255, 0.15);
   box-shadow: 0em 0.3em 0.5em rgba(0, 0, 0, 0.13);
   border-bottom: 1px solid rgba(0, 0, 0, 0.2);
   position: relative;
   margin-bottom: 2em; }
-  /* line 111, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 111, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .nav .logo {
     float: left;
     display: block;
     margin-right: 2.62404%;
     width: 31.58397%; }
-    /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
+    /* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
     .nav .logo:last-child {
       margin-right: 0; }
-    /* line 113, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 113, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     .nav .logo img {
       max-width: 7.1875em;
       height: 81px;
       margin: 0 auto;
       padding-top: 0.2em;
       display: block; }
-  /* line 119, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 119, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .nav a:hover {
     border: none; }
-  /* line 121, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 121, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .nav button {
     float: right; }
-  /* line 123, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 123, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .nav .container {
     height: 4.375em; }
 
-/* line 126, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 126, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 div.wrapper {
   max-width: 90em;
   background: #efefef;
   margin: 0 auto; }
   @media screen and (min-width: 1441px) {
-    /* line 126, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 126, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     div.wrapper {
       border-left: 1px solid rgba(0, 0, 0, 0.2);
       border-right: 1px solid rgba(0, 0, 0, 0.2); } }
 
-/* line 134, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 134, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 div.container {
   *zoom: 1;
   max-width: 60em;
   margin-left: auto;
   margin-right: auto;
   padding: 0 1em; }
-  /* line 18, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/bourbon/addons/_clearfix.scss */
+  /* line 18, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/bourbon/addons/_clearfix.scss */
   div.container:before, div.container:after {
     content: " ";
     display: table; }
-  /* line 23, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/bourbon/addons/_clearfix.scss */
+  /* line 23, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/bourbon/addons/_clearfix.scss */
   div.container:after {
     clear: both; }
 
-/* line 139, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 139, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 section.main, section.speaker-bio {
   padding: 3em 0; }
-  /* line 25, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/_variables.sass */
+  /* line 25, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/_variables.sass */
   section.main:nth-child(even), section.speaker-bio:nth-child(even) {
     background: white; }
   @media screen and (max-width: 767px) {
-    /* line 139, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 139, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     section.main, section.speaker-bio {
       padding: 2em 0; } }
 
-/* line 142, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 142, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 .photo-divider {
   margin: 2em 0; }
 
-/* line 145, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 145, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 .back-to-top {
   display: none;
   -webkit-transition: all, 0.5s;
@@ -597,7 +597,7 @@ section.main, section.speaker-bio {
   top: 0.7em;
   right: 0.7em;
   z-index: 1000; }
-  /* line 152, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 152, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .back-to-top a {
     width: 2em;
     height: 2em;
@@ -607,13 +607,13 @@ section.main, section.speaker-bio {
     transition: all, 0.2s;
     display: block;
     color: #9a9a9a; }
-    /* line 160, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 160, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     .back-to-top a:hover {
       background: rgba(0, 0, 0, 0.95);
       -webkit-transition: all, 0.2s;
       -moz-transition: all, 0.2s;
       transition: all, 0.2s; }
-    /* line 163, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 163, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     .back-to-top a i {
       display: block !important;
       text-align: center;
@@ -623,7 +623,7 @@ section.main, section.speaker-bio {
       -ms-transform: translateY(-50%);
       transform: translateY(-50%); }
 
-/* line 175, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 175, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 div.menu, div.tickets {
   float: left;
   display: block;
@@ -634,14 +634,14 @@ div.menu, div.tickets {
   -webkit-transform: translateY(-50%);
   -ms-transform: translateY(-50%);
   transform: translateY(-50%); }
-  /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
+  /* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
   div.menu:last-child, div.tickets:last-child {
     margin-right: 0; }
 
-/* line 179, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 179, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 div.menu {
   font-size: 1.2rem; }
-  /* line 181, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 181, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   div.menu a {
     color: #2c2c2c;
     padding: 0.3em 0.5em 0.2em;
@@ -649,171 +649,171 @@ div.menu {
     -webkit-transition: all, 0.2s;
     -moz-transition: all, 0.2s;
     transition: all, 0.2s; }
-    /* line 186, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 186, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     div.menu a:hover {
       background: rgba(255, 255, 255, 0.7);
       -webkit-transition: all, 0.2s;
       -moz-transition: all, 0.2s;
       transition: all, 0.2s; }
   @media screen and (max-width: 767px) {
-    /* line 179, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 179, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     div.menu {
       float: left;
       display: block;
       margin-right: 2.62404%;
       width: 14.47996%; }
-      /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
+      /* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
       div.menu:last-child {
         margin-right: 0; } }
 
 @media screen and (max-width: 767px) {
-  /* line 192, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 192, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   div.tickets {
     float: left;
     display: block;
     margin-right: 2.62404%;
     width: 48.68798%; }
-    /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
+    /* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
     div.tickets:last-child {
       margin-right: 0; } }
 
-/* line 198, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 198, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 .hero {
   background: url("/assets/images/cow.jpg") no-repeat center top;
   min-height: 40.625em;
   border-bottom: 1em solid #2c2c2c;
   position: relative; }
   @media screen and (max-width: 767px) {
-    /* line 198, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 198, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     .hero {
       background: url("/assets/images/cow-sm.jpg") no-repeat center top;
       min-height: 23.125em; } }
-  /* line 206, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 206, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .hero header {
     float: left;
     display: block;
     margin-right: 2.62404%;
     width: 48.68798%;
     margin-right: 0; }
-    /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
+    /* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
     .hero header:last-child {
       margin-right: 0; }
     @media screen and (max-width: 767px) {
-      /* line 206, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+      /* line 206, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
       .hero header {
         float: left;
         display: block;
         margin-right: 2.62404%;
         width: 100%; }
-        /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
+        /* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
         .hero header:last-child {
           margin-right: 0; } }
-  /* line 211, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 211, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .hero h2 {
     color: rgba(255, 255, 255, 0.8);
     border-top: 1px solid rgba(255, 255, 255, 0.4);
     border-bottom: 1px solid rgba(255, 255, 255, 0.4);
     display: inline;
     padding: 0.3em 0; }
-  /* line 218, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 218, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .hero .details {
     position: absolute;
     background: rgba(210, 173, 20, 0.5);
     bottom: 0; }
-    /* line 222, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 222, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     .hero .details h3 {
       color: white;
       margin: 0;
       padding: 0.3em 0.7em;
       font-size: 1.5rem; }
 
-/* line 231, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 231, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 .callouts figure {
   padding: 0.75em;
   border: 1px solid rgba(0, 0, 0, 0.2);
   background: white;
   margin: 0 0 1em 0; }
-/* line 236, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 236, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 .callouts .callout {
   float: left;
   display: block;
   margin-right: 2.62404%;
   width: 48.68798%; }
-  /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
+  /* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
   .callouts .callout:last-child {
     margin-right: 0; }
   @media screen and (max-width: 767px) {
-    /* line 236, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 236, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     .callouts .callout {
       float: left;
       display: block;
       margin-right: 2.62404%;
       width: 100%;
       margin-top: 1.4em; }
-      /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
+      /* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
       .callouts .callout:last-child {
         margin-right: 0; } }
-  /* line 241, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 241, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .callouts .callout p {
     font-size: 0.9rem; }
-  /* line 243, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 243, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .callouts .callout h4 {
     margin-bottom: 0.5em; }
 
-/* line 248, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 248, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 .schedule {
   margin-top: 2.5em; }
-  /* line 250, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 250, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .schedule h3 {
     border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     padding-bottom: 0.5em; }
-  /* line 253, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 253, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .schedule p, .schedule .time, .schedule li {
     font-size: 0.9rem; }
-  /* line 255, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 255, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .schedule ul {
     margin: 0.2em 0;
     padding: 0;
     list-style: none; }
-  /* line 260, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 260, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .schedule .row {
     *zoom: 1;
     max-width: 60em;
     margin-left: auto;
     margin-right: auto; }
-    /* line 18, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/bourbon/addons/_clearfix.scss */
+    /* line 18, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/bourbon/addons/_clearfix.scss */
     .schedule .row:before, .schedule .row:after {
       content: " ";
       display: table; }
-    /* line 23, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/bourbon/addons/_clearfix.scss */
+    /* line 23, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/bourbon/addons/_clearfix.scss */
     .schedule .row:after {
       clear: both; }
-    /* line 262, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 262, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     .schedule .row:nth-child(odd) {
       background: #efefef; }
     @media screen and (max-width: 767px) {
-      /* line 260, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+      /* line 260, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
       .schedule .row {
         margin-bottom: 1em; }
-        /* line 266, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+        /* line 266, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
         .schedule .row ul {
           margin-bottom: 0; } }
-  /* line 269, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 269, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .schedule .time, .schedule .details {
     padding: 0.7em 0.3em;
     vertical-align: top; }
-  /* line 273, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 273, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .schedule .time {
     padding-right: 1em;
     float: left;
     display: block;
     margin-right: 2.62404%;
     width: 14.47996%; }
-    /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
+    /* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
     .schedule .time:last-child {
       margin-right: 0; }
     @media screen and (max-width: 767px) {
-      /* line 273, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+      /* line 273, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
       .schedule .time {
         float: left;
         display: block;
@@ -823,36 +823,36 @@ div.menu {
         border-left: 7px solid #d2ad14;
         border-bottom: 1px dotted rgba(0, 0, 0, 0.2);
         padding-right: 0; }
-        /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
+        /* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
         .schedule .time:last-child {
           margin-right: 0; } }
-  /* line 283, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 283, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .schedule .details {
     float: left;
     display: block;
     margin-right: 2.62404%;
     width: 82.89599%;
     margin-right: 0; }
-    /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
+    /* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
     .schedule .details:last-child {
       margin-right: 0; }
     @media screen and (max-width: 767px) {
-      /* line 283, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+      /* line 283, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
       .schedule .details {
         float: left;
         display: block;
         margin-right: 2.62404%;
         width: 100%; }
-        /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
+        /* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
         .schedule .details:last-child {
           margin-right: 0; } }
-  /* line 289, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 289, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .schedule h5 {
     border-top: 1px dotted rgba(0, 0, 0, 0.2);
     padding-top: 0.3em;
     margin-top: 0.3em; }
 
-/* line 296, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 296, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 li.block {
   float: left;
   display: block;
@@ -863,36 +863,36 @@ li.block {
   background: white;
   line-height: 0;
   overflow: hidden; }
-  /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
+  /* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
   li.block:last-child {
     margin-right: 0; }
-  /* line 70, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_omega.scss */
+  /* line 70, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_omega.scss */
   li.block:nth-child(4n) {
     margin-right: 0; }
-  /* line 75, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_omega.scss */
+  /* line 75, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_omega.scss */
   li.block:nth-child(4n+1) {
     clear: left; }
   @media screen and (max-width: 767px) {
-    /* line 296, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+    /* line 296, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
     li.block {
       float: left;
       display: block;
       margin-right: 2.62404%;
       width: 48.68798%; }
-      /* line 40, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
+      /* line 40, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_span-columns.scss */
       li.block:last-child {
         margin-right: 0; }
-      /* line 70, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_omega.scss */
+      /* line 70, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_omega.scss */
       li.block:nth-child(2n) {
         margin-right: 0; }
-      /* line 75, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_omega.scss */
+      /* line 75, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/vendor/neat/grid/_omega.scss */
       li.block:nth-child(2n+1) {
         clear: left; } }
-  /* line 307, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 307, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   li.block p {
     font-size: 0.85rem;
     padding: 0 0.8em; }
-  /* line 310, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 310, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   li.block .name {
     font-size: 1rem;
     padding: 0.3em;
@@ -903,31 +903,31 @@ li.block {
     margin: 0;
     line-height: 1.4em;
     font-family: "Quattrocento", serif; }
-  /* line 320, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 320, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   li.block a {
     color: rgba(255, 255, 255, 0.8); }
-  /* line 322, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 322, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   li.block:hover {
     box-shadow: 0.3em 0.3em 0.7em rgba(0, 0, 0, 0.33); }
 
-/* line 327, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+/* line 327, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 .speaker-bio {
   border-bottom: 4px solid #985200;
   margin-bottom: 1.5em; }
-  /* line 331, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 331, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .speaker-bio h1 {
     background: #676767;
     font-size: 1.3rem;
     margin-bottom: 1em;
     padding: 0.3em 0.4em; }
-  /* line 336, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+  /* line 336, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   .speaker-bio img {
     float: left;
     margin-right: 1em;
     margin-top: -1em;
     border: 1px solid rgba(0, 0, 0, 0.2); }
     @media screen and (max-width: 767px) {
-      /* line 336, /Users/pk/Sites/london.savoryinstitute/source/assets/stylesheets/app.sass */
+      /* line 336, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
       .speaker-bio img {
         float: none;
         margin: 0 0 1em 0; } }
