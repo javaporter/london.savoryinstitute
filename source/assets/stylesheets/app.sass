@@ -293,6 +293,8 @@ div.tickets
 
 
 // speaker bios
+section.sponsors
+
 li.block
   +span-columns(3)
   +omega(4n)
@@ -341,3 +343,27 @@ li.block
     +media($baby-bear)
       float: none
       margin: 0 0 1em 0
+
+
+
+// sponsors and partners
+section.sponsors
+  +main
+
+ul.sponsor-list
+  list-style: none
+  margin: 0
+  padding: 0
+  +outer-container
+  // +display(flex)
+
+  li
+    @include span-columns(3)
+    @include omega(4n)
+    background: white
+    border: 1px solid $neutral
+    padding: 1em
+    margin-bottom: 1em
+    line-height: 0
+    text-align: center
+    // +flex(1)
