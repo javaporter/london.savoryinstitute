@@ -350,20 +350,32 @@ li.block
 section.sponsors
   +main
 
-ul.sponsor-list
-  list-style: none
-  margin: 0
-  padding: 0
-  +outer-container
-  // +display(flex)
+  ul
+    list-style: none
+    margin: 0
+    padding: 0
+    @extend %flex
 
-  li
-    @include span-columns(3)
-    @include omega(4n)
-    background: white
-    border: 1px solid $neutral
-    padding: 1em
-    margin-bottom: 1em
-    line-height: 0
-    text-align: center
-    // +flex(1)
+    li
+      +span-columns(3)
+      +omega(4n)
+      background: white
+      border: 1px solid $neutral
+      padding: 1em
+      margin-bottom: 1em
+      line-height: 0
+      +transition(box-shadow, .2s)
+
+      &:hover
+        box-shadow: 3px 3px 7px 0px rgba(50, 50, 50, 0.51)
+        +transition(box-shadow, .2s)
+
+  ul.sponsor-list li
+    +span-columns(4)
+    +omega(3n)
+
+  ul.partner-list li
+    +span-columns(3)
+    +omega(4n)
+
+
