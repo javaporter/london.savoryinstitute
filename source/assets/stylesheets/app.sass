@@ -152,7 +152,6 @@ section.main
   a
     width: 2em
     height: 2em
-    // border-radius: 0.25em
     background: rgba(black, 0.75)
     +transition(all, 0.2s)
     display: block
@@ -164,6 +163,42 @@ section.main
       display: block !important
       text-align: center
       +vertical-align
+
+
+// masonry (actually, http://salvattore.com)
+.masonry
+  margin: -.75em
+  padding: 0
+  list-style: none
+  overflow: none
+
+  .column
+    float: left
+
+  .brick
+    padding: .75em
+    margin: 0
+
+    .brick-content
+      line-height: 0
+      padding: .75em
+      border: $border
+      text-align: center
+      background: white
+
+  .size-1of3
+    width: 33.333%
+
+    +media($baby-bear)
+      width: 50%
+
+  .size-1of4
+    width: 25%
+
+    +media($baby-bear)
+      width: 33.333%
+
+
 
 
 
@@ -350,32 +385,21 @@ li.block
 section.sponsors
   +main
 
-  ul
-    list-style: none
-    margin: 0
-    padding: 0
-    @extend %flex
+  .brick
+    cursor: pointer
 
-    li
-      +span-columns(3)
-      +omega(4n)
-      background: white
-      border: 1px solid $neutral
-      padding: 1em
-      margin-bottom: 1em
-      line-height: 0
+  .brick-content
+    +transition(box-shadow, .2s)
+    text-align: center
+
+    &:hover
+      box-shadow: 3px 3px 7px 0px rgba(50, 50, 50, 0.51)
       +transition(box-shadow, .2s)
 
-      &:hover
-        box-shadow: 3px 3px 7px 0px rgba(50, 50, 50, 0.51)
-        +transition(box-shadow, .2s)
+.sponsor-list[data-columns]::before
+  content: '3 .column.size-1of3'
 
-  ul.sponsor-list li
-    +span-columns(4)
-    +omega(3n)
-
-  ul.partner-list li
-    +span-columns(3)
-    +omega(4n)
+.partner-list[data-columns]::before
+  content: '4 .column.size-1of4'
 
 
