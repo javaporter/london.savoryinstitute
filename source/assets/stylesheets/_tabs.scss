@@ -5,7 +5,7 @@
   $tab-active-background: $tab-content-background;
   $tab-inactive-color: $base-body-color;
   $tab-inactive-hover-color: darken($light-gray, 5);
-  $tab-mode: $medium-screen;
+  $tab-mode: $all;
 
   @include clearfix;
   border: $tab-border;
