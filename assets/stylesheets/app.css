@@ -667,7 +667,7 @@ div.container {
 
 /* line 142, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 section.main, section.speaker-bio {
-  padding: 3em 0; }
+  padding: 5em 0; }
   /* line 27, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/_variables.sass */
   section.main:nth-child(even), section.speaker-bio:nth-child(even) {
     background: white; }
@@ -888,10 +888,10 @@ section.main .column, section.speaker-bio .column {
 
 /* line 280, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 section.gala, section.tour {
-  padding-bottom: 3em; }
+  padding-bottom: 5em; }
   /* line 282, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   section.gala img, section.tour img {
-    margin-bottom: 2em; }
+    margin-bottom: 3em; }
 
 /* line 287, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 .schedule {
@@ -1067,7 +1067,7 @@ li.block {
 
 /* line 387, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 section.sponsors {
-  padding: 3em 0; }
+  padding: 5em 0; }
   /* line 27, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/_variables.sass */
   section.sponsors:nth-child(even) {
     background: white; }
