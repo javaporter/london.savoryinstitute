@@ -49,11 +49,13 @@ h1
 h2
   font-size: 1.75rem
   margin: 0 0 .2em 0
+  color: $olive
   +media($baby-bear)
     font-size: 1.3rem
 
 h3
-  font-size: 1.5rem
+  font-size: 1.4rem
+  color: $mocha
   +media($baby-bear)
     font-size: 1.2rem
 
@@ -264,22 +266,20 @@ div.tickets
       font-size: 1.5rem
 
 
-// two primary callouts
-.callouts
-  figure
-    padding: .75em
-    border: $border
-    background: white
-    margin: 0 0 1em 0
-  .callout
+// main section
+section.main
+  .column
     +span-columns(6)
     +media($baby-bear)
       +span-columns(12)
-      margin-top: 1.4em
-    p
-      font-size: .9rem
-    h4
-      margin-bottom: .5em
+
+
+
+// gala dinner and tour
+section.gala, section.tour
+  padding-bottom: 3em
+  img
+    margin-bottom: 2em
 
 
 // schedule stuff
