@@ -950,7 +950,7 @@ section.main .column, section.speaker-bio .column {
 
 /* line 311, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
 section.gala, section.tour {
-  padding-bottom: 5em; }
+  padding-top: 0; }
   /* line 313, /Users/pk/Projects/london.savoryinstitute/source/assets/stylesheets/app.sass */
   section.gala img, section.tour img {
     margin-bottom: 3em; }
