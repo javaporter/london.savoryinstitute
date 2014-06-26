@@ -105,6 +105,37 @@ hr
 //  = Globals =
 //  ===========
 
+.buy-tickets-fixed
+  position: fixed
+  z-index: 10
+  bottom: 0
+  left: 0
+  width: 0
+  height: 0
+  border-style: solid
+  border-width: 75px 0 0 75px
+  border-color: transparent transparent transparent rgba($mustard, .8)
+  a
+    z-index: 30
+    color: rgba(white, .9)
+    +transition(color, .2s)
+    position: absolute
+    top: -35px
+    left: -65px
+    font-size: 1.5rem
+    &:hover
+      color: rgba(white, .5)
+      +transition(color, .2s)
+
+.iframe-holder
+  margin-top: 2em
+
+.alt-btn
+  +btn
+  background: $purple
+  &:hover
+    background: lighten($purple, 5%)
+
 .nav
   background: rgba(white, .15)
   box-shadow: 0em .3em .5em rgba(black, .13)
@@ -270,7 +301,7 @@ div.tickets
 // main section
 section.main
   .column
-    +span-columns(6)
+    +span-columns(4)
     +media($baby-bear)
       +span-columns(12)
 

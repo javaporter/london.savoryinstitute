@@ -1,3 +1,7 @@
+.buy-tickets-fixed
+  =link_to '#buy-tickets' do
+    %i.fa.fa-ticket
+
 .hero{'data-stellar-background-ratio' => '0.5'}
   %nav.nav
     .container
@@ -9,7 +13,7 @@
           =image_tag('logo.svg', :alt => 'Savory Institute')
         &nbsp;
       .tickets
-        %a{href: '#pricing'}
+        %a{href: '#buy-tickets'}
           %button
             %i.fa.fa-ticket
             Buy Tickets
@@ -41,6 +45,10 @@
       %h3 Conference Food
       %p Your ticket includes many amenities including daily coffee and tea with light breakfast items, a 3-course lunch, and snacks will be provided, as well as a complementary mixer on Friday night with one free drink voucher for beer or wine per person.
 
+    .column
+      %h3 Lodging
+      %p For the most convenient option we recommend you stay at the <a href="http://www.grangehotels.com/business/savory-institute-international-conference/" target="_blank">Grange Tower Bridge Hotelat</a> the conference center (<a href='https://goo.gl/maps/svsqy', target='_blank'>45 Prescot Street, London, E1 8GP</a>). Be sure to select the Tower Bridge option from the drop-down menu. Other options include City Hotel, Premier Inn, the Travel Lodge—Tower Bridge, or the Travel Lodge—Aldgate East.
+
 
 
 %section.gala#gala-dinner
@@ -50,14 +58,10 @@
     %h3 We invite you to join us for our Gala fundraiser dinner on July 31<sup>st</sup>.
     %p This will be held at the gorgeous <a href="http://www.hurlinghamclub.org.uk/", target="_blank">Hurlingham Club</a>. It’s one of the most well-known venues for special gatherings in the world. With a 42 acre estate in the heart of London, there is nothing else like it.
     %p Many of the conference speakers will be joining us at the dinner, so you'll get the opportunity to share a meal with these industry leaders who are driving the paradigm shift towards a more positive future. This is a great opportunity for you to help support our cause of regenerating grasslands and improving the lives of pastoralists the world over. <a href="http://youtu.be/Eo9jw-kkgRQ", target="_blank">(Watch venue video.)</a>
-    %a{href: 'https://www.eventbrite.com/e/savory-institute-international-conference-registration-11051105153', target: 'blank'}
+    %a{href: '#buy-tickets'}
       %button
         %i.fa.fa-ticket
-        Buy Tickets
-    %a{href: 'http://www.eventbrite.com/e/savory-institute-putting-grasslands-to-work-registration-11765782773', target: 'blank'}
-      %button
-        %i.fa.fa-gbp
-        UK Buy Tickets
+        Buy Tickets <small>$500 | £300</small>
 
 
 %section.tour#tour
@@ -65,41 +69,16 @@
   .container
     %h2 Optional Tour of Scandinavian Hub: Scandinavian Mountain Graze
     %h3 August 4<sup>th</sup>&ndash;9<sup>th</sup>, 2014 directly following the Savory Institute conference in London
-    %p The Savory Institute Scandinavian Hub supports a mountain community that is both innovative and beautiful. With a colorful history of grazing, Fjallbete has a desire to foster interaction and lasting relationships with fellow Hubs and interested people from around the world dedicated to the advancement of Holistic Management. We invite you on an all-inclusive trip to come visit!
-    %a{href: 'http://www.savoryinstitute.com/media/52027/scandinavianmountaingraze_v2.pdf', target: 'blank'}
-      %button
-        %i.fa.fa-download
-        Download PDF Flyer
+    %p The Savory Institute Scandinavian Hub supports a mountain community that is both innovative and beautiful. With a colorful history of grazing, Fjallbete has a desire to foster interaction and lasting relationships with fellow Hubs and interested people from around the world dedicated to the advancement of Holistic Management. We invite you on an all-inclusive trip to come&nbsp;visit!
 
-
-
-%section.main#pricing
-  .container
-    %h2 Pricing
-    %ul
-      %li
-        %strong Early Bird Special:
-        Get your tickets before July 1<sup>st</sup> for $100 (£70) discount
-      %li If you are an <a href='https://www.eventbrite.com/e/savory-institute-international-conference-registration-11051105153'>active student</a> you may purchase your tickets for $299 (£180). You will be required to bring your high school or College/University photo ID card upon admission.
-      %li If you are a <a href='https://www.eventbrite.com/e/savory-institute-international-conference-registration-11051105153'>Savory Institute accredited Holistic Management Professional</a> you may also purchase at this price.
-    %a{href: 'https://www.eventbrite.com/e/savory-institute-international-conference-registration-11051105153', target: 'blank'}
+    %a{href: 'http://www.savoryinstitute.com/media/52027/scandinavianmountaingraze_v2.pdf', target: '_blank'}
+      %button.alt-btn
+        %i.fa.fa-file-pdf-o
+        More Info
+    =link_to '#buy-tickets' do
       %button
         %i.fa.fa-ticket
-        Buy Tickets
-    %a{href: 'http://www.eventbrite.com/e/savory-institute-putting-grasslands-to-work-registration-11765782773', target: 'blank'}
-      %button
-        %i.fa.fa-gbp
-        UK Buy Tickets
-    %hr
-    %h2 Lodging
-    %ul
-      %li For the most convenient option we recommend you stay at the <a href="http://www.grangehotels.com/business/savory-institute-international-conference/" target="_blank">Grange Tower Bridge Hotelat</a> the conference center (<a href='https://goo.gl/maps/svsqy', target='_blank'>45 Prescot Street, London, E1 8GP</a>). Be sure to select the Tower Bridge option from the drop-down menu.
-      %li The alternative option is the City Hotel. It’s only a few blocks away and is intended for overflow if the Grange Tower Bridge Hotel reaches capacity.
-      %li Directly opposite the conference venue is the <a href="http://www.premierinn.com/en/checkHotel/LONCIT/london-city-tower-hill" target="_blank">Premier Inn</a>. Prices are currently around £200 for two nights but will vary and increase as time passes.
-      %li Just one minute's walk away is a budget hotel—the <a href="http://www.travelodge.co.uk/hotels/391/London-Central-Tower-Bridge-hotel?gclid=CKHBmtyrsr0CFZHJtAodGT0A3g" target="_blank">Travel Lodge—Tower Bridge</a>.
-      %li The <a href="http://www.travelodge.co.uk/hotels/355/London-Central-Aldgate-East-hotel" target="_blank">Travel Lodge—Aldgate East</a> is also very close. Prices are currently around £100 for two nights but will vary and increase as time passes.
-      %li About a five minute walk away is the 4-star <a href="http://www.ihg.com/hotelindigo/hotels/us/en/london/lonlt/hoteldetail" target="_blank">Hotel Indigo—Tower Bridge</a>.
-      %li Be sure to check <a href="http://www.kayak.com/" target="_blank">Kayak</a> and <a href="http://www.priceline.com/" target="_blank">Priceline</a> to make sure you’re getting the best prices.
+        Buy Tickets <small>$2625 | £1565</small>
 
 
 
@@ -542,5 +521,26 @@
         .brick-content=link_to image_tag('sponsors/sustainable-food-trust.png'), 'http://sustainablefoodtrust.org/', :target => '_blank'
 
 
+
+%section.main#buy-tickets
+  .container
+    %h2 Buy Tickets
+    %ul
+      %li
+        %strong Early Bird Special:
+        Get your tickets before July 1<sup>st</sup> for $100 (£70) discount
+      %li If you are an <a href='https://www.eventbrite.com/e/savory-institute-international-conference-registration-11051105153'>active student</a> you may purchase your tickets for $299 (£180). You will be required to bring your high school or College/University photo ID card upon admission.
+      %li If you are a <a href='https://www.eventbrite.com/e/savory-institute-international-conference-registration-11051105153'>Savory Institute accredited Holistic Management Professional</a> you may also purchase at this price.
+
+
+  .container
+    .iframe-holder
+      %h3 US Dollars
+      %iframe{:allowtransparency => "true", :frameborder => "0", :height => "510", :hspace => "0", :marginheight => "5", :marginwidth => "5", :src => "//eventbrite.com/tickets-external?eid=11051105153&ref=etckt", :vspace => "0", :width => "100%"}
+
+  .container
+    .iframe-holder
+      %h3 British Pound
+      %iframe{:allowtransparency => "true", :frameborder => "0", :height => "510", :hspace => "0", :marginheight => "5", :marginwidth => "5", :src => "//eventbrite.com/tickets-external?eid=11765782773&ref=etckt", :vspace => "0", :width => "100%"}
 
 

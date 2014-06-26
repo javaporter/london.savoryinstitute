@@ -8,7 +8,7 @@
     %title Putting Grasslands to Work | Savory Institute
     =stylesheet_link_tag '/assets/bower_components/normalize-css/normalize.css'
     =stylesheet_link_tag '//fonts.googleapis.com/css?family=Quattrocento|Quattrocento+Sans:400,700,400italic,700italic'
-    =stylesheet_link_tag '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css'
+    =stylesheet_link_tag '//netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.css'
     =stylesheet_link_tag 'app'
   %body
     %div
@@ -27,10 +27,6 @@
             %i.fa.fa-home
             Overview
         %li
-          %a{href: '#speaker-bios'}
-            %i.fa.fa-users
-            Speaker Bios
-        %li
           %a{href: '#gala-dinner'}
             %i.fa.fa-glass
             Gala Fundraising Dinner
@@ -39,9 +35,9 @@
             %i.fa.fa-camera
             Scandinavian Hub Tour
         %li
-          %a{href: '#pricing'}
-            %i.fa.fa-ticket
-            Pricing & Lodging
+          %a{href: '#speaker-bios'}
+            %i.fa.fa-users
+            Speaker Bios
         %li
           %a{href: '#schedule'}
             %i.fa.fa-calendar
@@ -51,9 +47,14 @@
             %i.fa.fa-heart
             Sponsors & Partners
         %li
+          %a{href: '#buy-tickets'}
+            %i.fa.fa-ticket
+            Buy Tickets
+        %li
           %a{href: 'mailto:contact@savoryinstitute.org'}
             %i.fa.fa-envelope
             Contact Us
+
 
     =javascript_include_tag '/assets/bower_components/jquery/dist/jquery.min.js'
     =javascript_include_tag 'custom.modernizr.js'
