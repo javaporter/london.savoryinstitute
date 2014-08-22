@@ -1,7 +1,3 @@
-.buy-tickets-fixed
-  =link_to '#buy-tickets' do
-    %i.fa.fa-ticket
-
 .hero{'data-stellar-background-ratio' => '0.5'}
   %nav.nav
     .container
@@ -12,11 +8,6 @@
         %a{href: 'http://www.savoryinstitute.com/', target: '_blank'}
           =image_tag('logo.svg', :alt => 'Savory Institute')
         &nbsp;
-      .tickets
-        %a{href: '#buy-tickets'}
-          %button
-            %i.fa.fa-ticket
-            Buy Tickets
 
   .container
     %header
@@ -58,10 +49,6 @@
     %h3 We invite you to join us for our Gala fundraiser dinner on July 31<sup>st</sup>.
     %p This will be held at the gorgeous <a href="http://www.hurlinghamclub.org.uk/", target="_blank">Hurlingham Club</a>. It’s one of the most well-known venues for special gatherings in the world. With a 42 acre estate in the heart of London, there is nothing else like it.
     %p Many of the conference speakers will be joining us at the dinner, so you'll get the opportunity to share a meal with these industry leaders who are driving the paradigm shift towards a more positive future. This is a great opportunity for you to help support our cause of regenerating grasslands and improving the lives of pastoralists the world over. <a href="http://youtu.be/Eo9jw-kkgRQ", target="_blank">(Watch venue video.)</a>
-    %a{href: '#buy-tickets'}
-      %button
-        %i.fa.fa-ticket
-        Buy Tickets <small>$500 | £300</small>
 
 
 %section.main.tour#tour
@@ -75,11 +62,6 @@
       %button.alt-btn
         %i.fa.fa-file-pdf-o
         More Info
-    =link_to '#buy-tickets' do
-      %button
-        %i.fa.fa-ticket
-        Buy Tickets <small>$2625 | £1565</small>
-
 
 
 %section.main#speaker-bios
@@ -610,28 +592,5 @@
         .brick-content=link_to image_tag('sponsors/soil-capital.png'), 'http://www.soilcapital.com/', :target => '_blank'
       %li.brick
         .brick-content=link_to image_tag('sponsors/sustainable-food-trust.png'), 'http://sustainablefoodtrust.org/', :target => '_blank'
-
-
-
-%section.main#buy-tickets
-  .container
-    %h2 Buy Tickets
-    %ul
-      %li
-        %strong Early Bird Special:
-        Get your tickets before July 1<sup>st</sup> for $100 (£70) discount
-      %li If you are an <a href='https://www.eventbrite.com/e/savory-institute-international-conference-registration-11051105153'>active student</a> you may purchase your tickets for $299 (£180). You will be required to bring your high school or College/University photo ID card upon admission.
-      %li If you are a <a href='https://www.eventbrite.com/e/savory-institute-international-conference-registration-11051105153'>Savory Institute accredited Holistic Management Professional</a> you may also purchase at this price.
-
-
-  .container
-    .iframe-holder
-      %h3 US Dollars
-      %iframe{:allowtransparency => "true", :frameborder => "0", :height => "510", :hspace => "0", :marginheight => "5", :marginwidth => "5", :src => "//eventbrite.com/tickets-external?eid=11051105153&ref=etckt", :vspace => "0", :width => "100%"}
-
-  .container
-    .iframe-holder
-      %h3 British Pound
-      %iframe{:allowtransparency => "true", :frameborder => "0", :height => "510", :hspace => "0", :marginheight => "5", :marginwidth => "5", :src => "//eventbrite.com/tickets-external?eid=11765782773&ref=etckt", :vspace => "0", :width => "100%"}
 
 
