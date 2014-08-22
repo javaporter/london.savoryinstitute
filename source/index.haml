@@ -1,6 +1,6 @@
-/ .buy-tickets-fixed
-/   =link_to '#buy-tickets' do
-/     %i.fa.fa-ticket
+.buy-tickets-fixed
+  =link_to '#buy-tickets' do
+    %i.fa.fa-ticket
 
 .hero{'data-stellar-background-ratio' => '0.5'}
   %nav.nav
@@ -12,11 +12,11 @@
         %a{href: 'http://www.savoryinstitute.com/', target: '_blank'}
           =image_tag('logo.svg', :alt => 'Savory Institute')
         &nbsp;
-      / .tickets
-      /   %a{href: '#buy-tickets'}
-      /     %button
-      /       %i.fa.fa-ticket
-      /       Buy Tickets
+      .tickets
+        %a{href: '#buy-tickets'}
+          %button
+            %i.fa.fa-ticket
+            Buy Tickets
 
   .container
     %header
@@ -27,41 +27,199 @@
     .details
       %h3 London &bull; Aug 1 & 2
 
-/ %section.main#overview
-/   .container
-/     %h2 We invite you to join us for the Savory Institute's Annual International Conference in London on August 1<sup>st</sup> and 2<sup>nd</sup>
-/     %p This location will allow our partners and collaborators from around the globe to join us and contribute to this special event. We will spotlight grasslands for all their under-appreciated beauty and value. We will also foster conversations around the unifying language of the land that bridges all cultures. Our movement is about real people with dirt under their fingernails and families to feed, people unified by a love of the land, a desire to understand nature's rhythms and cycles and the magical beauty of abundant life in the soil. These people want security for their children, prosperous landscapes, and a life filled by a deep personal connection with nature.
+%section.main#overview
+  .container
+    %h2 We invite you to join us for the Savory Institute's Annual International Conference in London on August 1<sup>st</sup> and 2<sup>nd</sup>
+    %p This location will allow our partners and collaborators from around the globe to join us and contribute to this special event. We will spotlight grasslands for all their under-appreciated beauty and value. We will also foster conversations around the unifying language of the land that bridges all cultures. Our movement is about real people with dirt under their fingernails and families to feed, people unified by a love of the land, a desire to understand nature's rhythms and cycles and the magical beauty of abundant life in the soil. These people want security for their children, prosperous landscapes, and a life filled by a deep personal connection with nature.
 
-/     %blockquote The age of Holistic Management is upon us. There is an undeniable need for humans to honor the complexity of the natural world. We've seen a new awakening among people to embrace living in harmony with their environment.The movement has reached critical mass and is exploding all around the globe.
+    %blockquote The age of Holistic Management is upon us. There is an undeniable need for humans to honor the complexity of the natural world. We've seen a new awakening among people to embrace living in harmony with their environment.The movement has reached critical mass and is exploding all around the globe.
 
-/   =image_tag('london.jpg', :class => 'photo-divider')
+  =image_tag('london.jpg', :class => 'photo-divider')
 
-/   .container
-/     .column
-/       %h3 Conference Venue
-/       %p The conference will be hosted at the <a href="http://www.grangehotels.com/business/savory-institute-international-conference/" target="_blank">Grange Tower Bridge Hotel and Conference Center</a> in Central London. A 5-star venue situated close to the Tower of London and Tower Bridge in the heart of historic London, the conference center provides all the modern amenities to host our world-gathering.
+  .container
+    .column
+      %h3 Conference Venue
+      %p The conference will be hosted at the <a href="http://www.grangehotels.com/business/savory-institute-international-conference/" target="_blank">Grange Tower Bridge Hotel and Conference Center</a> in Central London. A 5-star venue situated close to the Tower of London and Tower Bridge in the heart of historic London, the conference center provides all the modern amenities to host our world-gathering.
 
-/     .column
-/       %h3 Conference Food
-/       %p Your ticket includes many amenities including daily coffee and tea with light breakfast items, a 3-course lunch, and snacks will be provided, as well as a complementary mixer on Friday night with one free drink voucher for beer or wine per person.
+    .column
+      %h3 Conference Food
+      %p Your ticket includes many amenities including daily coffee and tea with light breakfast items, a 3-course lunch, and snacks will be provided, as well as a complementary mixer on Friday night with one free drink voucher for beer or wine per person.
 
-/     .column
-/       %h3 Lodging
-/       %p For the most convenient option we recommend you stay at the <a href="http://www.grangehotels.com/business/savory-institute-international-conference/" target="_blank">Grange Tower Bridge Hotel</a> the conference center (<a href='https://goo.gl/maps/svsqy', target='_blank'>45 Prescot Street, London, E1 8GP</a>). Be sure to select the Tower Bridge option from the drop-down menu. Other options include City Hotel, Premier Inn, the Travel Lodge—Tower Bridge, or the Travel Lodge—Aldgate East.
+    .column
+      %h3 Lodging
+      %p For the most convenient option we recommend you stay at the <a href="http://www.grangehotels.com/business/savory-institute-international-conference/" target="_blank">Grange Tower Bridge Hotel</a> the conference center (<a href='https://goo.gl/maps/svsqy', target='_blank'>45 Prescot Street, London, E1 8GP</a>). Be sure to select the Tower Bridge option from the drop-down menu. Other options include City Hotel, Premier Inn, the Travel Lodge—Tower Bridge, or the Travel Lodge—Aldgate East.
 
 
 
-/ %section.main.gala#gala-dinner
-/   =image_tag('dinner.jpg')
-/   .container
-/     %h2 Gala Fundraiser Dinner at Hurlingham Club London
-/     %h3 We invite you to join us for our Gala fundraiser dinner on July 31<sup>st</sup>.
-/     %p This will be held at the gorgeous <a href="http://www.hurlinghamclub.org.uk/", target="_blank">Hurlingham Club</a>. It’s one of the most well-known venues for special gatherings in the world. With a 42 acre estate in the heart of London, there is nothing else like it.
-/     %p Many of the conference speakers will be joining us at the dinner, so you'll get the opportunity to share a meal with these industry leaders who are driving the paradigm shift towards a more positive future. This is a great opportunity for you to help support our cause of regenerating grasslands and improving the lives of pastoralists the world over. <a href="http://youtu.be/Eo9jw-kkgRQ", target="_blank">(Watch venue video.)</a>
-/     %a{href: '#buy-tickets'}
-/       %button
-/         %i.fa.fa-ticket
-/         Buy Tickets <small>$500 | £300</small>
+%section.main.gala#gala-dinner
+  =image_tag('dinner.jpg')
+  .container
+    %h2 Gala Fundraiser Dinner at Hurlingham Club London
+    %h3 We invite you to join us for our Gala fundraiser dinner on July 31<sup>st</sup>.
+    %p This will be held at the gorgeous <a href="http://www.hurlinghamclub.org.uk/", target="_blank">Hurlingham Club</a>. It’s one of the most well-known venues for special gatherings in the world. With a 42 acre estate in the heart of London, there is nothing else like it.
+    %p Many of the conference speakers will be joining us at the dinner, so you'll get the opportunity to share a meal with these industry leaders who are driving the paradigm shift towards a more positive future. This is a great opportunity for you to help support our cause of regenerating grasslands and improving the lives of pastoralists the world over. <a href="http://youtu.be/Eo9jw-kkgRQ", target="_blank">(Watch venue video.)</a>
+    %a{href: '#buy-tickets'}
+      %button
+        %i.fa.fa-ticket
+        Buy Tickets <small>$500 | £300</small>
+
+
+%section.main.tour#tour
+  =image_tag('tour.jpg')
+  .container
+    %h2 Optional Tour of Scandinavian Hub: Scandinavian Mountain Graze
+    %h3 August 4<sup>th</sup>&ndash;9<sup>th</sup>, 2014 directly following the Savory Institute conference in London
+    %p The Savory Institute Scandinavian Hub supports a mountain community that is both innovative and beautiful. With a colorful history of grazing, Fjallbete has a desire to foster interaction and lasting relationships with fellow Hubs and interested people from around the world dedicated to the advancement of Holistic Management. We invite you on an all-inclusive trip to come&nbsp;visit!
+
+    %a{href: 'http://www.savoryinstitute.com/media/52027/scandinavianmountaingraze_v2.pdf', target: '_blank'}
+      %button.alt-btn
+        %i.fa.fa-file-pdf-o
+        More Info
+    =link_to '#buy-tickets' do
+      %button
+        %i.fa.fa-ticket
+        Buy Tickets <small>$2625 | £1565</small>
+
+
+
+%section.main#speaker-bios
+  .container
+    %h2 Speaker Bios
+    %p We’ve put together a stellar line-up of presenters. Our goal has been to build an arrangement of dynamic speakers who are experts in the fields of soil science, climate change, permaculture, range science, the local food movement, human health, conservation biology, and alternative finance. Holistic Management will be the central piece tying it all together. In addition to these presenters, you can also be sure to expect updates from our returning 2013 Hub Leaders as well as introducing new 2014 Hub Leaders. There will also be presentations from the Savory Institute Executive Team, and the Grasslands LLC Executive Team as well as working land managers and ranchers from around the globe.
+
+  .container
+    %li.block
+      %a{href: '/bios/justin-adams'}
+        =image_tag('bios/justin.jpg', :alt => 'Justin Adams')
+        .name Justin Adams
+    %li.block
+      %a{href: '/bios/brittany-cole-bush'}
+        =image_tag('bios/brittany.jpg', :alt => 'Brittany Cole Bush')
+        .name Brittany Cole Bush
+    %li.block
+      %a{href: '/bios/peter-byck'}
+        =image_tag('bios/peter.jpg', :alt => 'Peter Byck')
+        .name Peter Byck
+    %li.block
+      %a{href: '/bios/natasha-campbell-mcbride'}
+        =image_tag('bios/natasha.jpg', :alt => 'Natasha Campbell-McBride')
+        .name Natasha Campbell-McBride
+    %li.block
+      %a{href: '/bios/tre-cates'}
+        =image_tag('bios/tre.jpg', :alt => 'Tré Cates')
+        .name Tré Cates
+    %li.block
+      %a{href: '/bios/katherine-collins'}
+        =image_tag('bios/katherine.jpg', :alt => 'Katherine Collins')
+        .name Katherine Collins
+    %li.block
+      %a{href: '/bios/darren-doherty'}
+        =image_tag('bios/darren.jpg', :alt => 'Darren Doherty')
+        .name Darren Doherty
+    %li.block
+      %a{href: '/bios/sarah-fragoso'}
+        =image_tag('bios/sarah.jpg', :alt => 'Sarah Fragoso')
+        .name Sarah Fragoso
+    %li.block
+      %a{href: '/bios/hannah-gosnell'}
+        =image_tag('bios/hannah.jpg', :alt => 'Hannah Gosnell')
+        .name Hannah Gosnell
+    %li.block
+      %a{href: '/bios/owen-hablutzel'}
+        =image_tag('bios/owen.jpg', :alt => 'Owen Hablutzel')
+        .name Owen Hablutzel
+    %li.block
+      %a{href: '/bios/mimi-hillenbrand'}
+        =image_tag('bios/mimi.jpg', :alt => 'Mimi Hillenbrand')
+        .name Mimi Hillenbrand
+    %li.block
+      %a{href: '/bios/graham-harvey'}
+        =image_tag('bios/graham.jpg', :alt => 'Graham Harvey')
+        .name Graham Harvey
+    %li.block
+      %a{href: '/bios/patrick-holden'}
+        =image_tag('bios/patrick.jpg', :alt => 'Patrick Holden')
+        .name Patrick Holden
+    %li.block
+      %a{href: '/bios/jim-howell'}
+        =image_tag('bios/jim.jpg', :alt => 'Jim Howell')
+        .name Jim Howell
+    %li.block
+      %a{href: '/bios/daniela-howell'}
+        =image_tag('bios/dan.jpg', :alt => 'Daniela Ibarra-Howell')
+        .name Daniela Ibarra-Howell
+    %li.block
+      %a{href: '/bios/elaine-ingham'}
+        =image_tag('bios/elaine.jpg', :alt => 'Dr. Elaine Ingham')
+        .name Dr. Elaine Ingham
+    %li.block
+      %a{href: '/bios/seth-itzkan'}
+        =image_tag('bios/seth.jpg', :alt => 'Seth Itzkan')
+        .name Seth Itzkan
+    %li.block
+      %a{href: '/bios/chris-kerston'}
+        =image_tag('bios/chris.jpg', :alt => 'Chris Kerston')
+        .name Chris Kerston
+    %li.block
+      %a{href: '/bios/victoria-kindred-keziah'}
+        =image_tag('bios/victoria.jpg', :alt => 'Victoria Kindred Keziah')
+        .name Victoria Kindred Keziah
+    %li.block
+      %a{href: '/bios/chad-kruger'}
+        =image_tag('bios/chad.jpg', :alt => 'Chad Kruger')
+        .name Chad Kruger
+    %li.block
+      %a{href: '/bios/martien-lankester'}
+        =image_tag('bios/martien.jpg', :alt => 'Martien Lankester')
+        .name Martien Lankester
+    %li.block
+      %a{href: '/bios/john-liu'}
+        =image_tag('bios/john.jpg', :alt => 'John Liu')
+        .name John Liu
+    %li.block
+      %a{href: '/bios/tony-lovell'}
+        =image_tag('bios/tony.jpg', :alt => 'Tony Lovell')
+        .name Tony Lovell
+    %li.block
+      %a{href: '/bios/hunter-lovins'}
+        =image_tag('bios/hunter.jpg', :alt => 'Hunter Lovins')
+        .name Hunter Lovins
+    %li.block
+      %a{href: '/bios/daphne-miller'}
+        =image_tag('bios/daphne.jpg', :alt => 'Dr. Daphne Miller')
+        .name Dr. Daphne Miller
+    %li.block
+      %a{href: '/bios/jason-rowntree'}
+        =image_tag('bios/jason.jpg', :alt => 'Jason Rowntree')
+        .name Jason Rowntree
+    %li.block
+      %a{href: '/bios/joel-salatin'}
+        =image_tag('bios/joel.jpg', :alt => 'Joel Salatin')
+        .name Joel Salatin
+    %li.block
+      %a{href: '/bios/allan-savory'}
+        =image_tag('bios/allan.jpg', :alt => 'Allan Savory')
+        .name Allan Savory
+    %li.block
+      %a{href: '/bios/judith-schwartz'}
+        =image_tag('bios/judith.jpg', :alt => 'Judy Schwartz')
+        .name Judy Schwartz
+    %li.block
+      %a{href: '/bios/brandon-sheard'}
+        =image_tag('bios/brandon.jpg', :alt => 'Brandon Sheard')
+        .name Brandon Sheard
+    %li.block
+      %a{href: '/bios/mark-stevenson'}
+        =image_tag('bios/mark.jpg', :alt => 'Mark Stevenson')
+        .name Mark Stevenson
+    %li.block
+      %a{href: '/bios/richard-teague'}
+        =image_tag('bios/richard.jpg', :alt => 'Richard Teague')
+        .name Richard Teague
+    %li.block
+      %a{href: '/bios/courtney-white'}
+        =image_tag('bios/courtney.jpg', :alt => 'Courtney White')
+        .name Courtney White
 
 
 
@@ -72,142 +230,7 @@
     .schedule
       %ul.accordion-tabs-minimal
         %li.tab-header-and-content
-          =link_to 'Sat, Aug 2', '#', :class => 'tab-link is-active'
-          .tab-content
-            .row
-              .time 8:00 - 8:30 am
-              .details
-                %h4 Coffee, Tea, Pastries
-            .row
-              .time 8:30 - 9:30 am
-              .details
-                %h4 A Celebration of Genius — Tribute to Bruce Ward
-                %ul
-                  %li Allan Savory, President, Savory Institute
-                  %li Suzie Ward, Co-Founder, Holistic Results
-                  %li Tony Lovell, CEO, SLM
-
-            .row
-              .time 9:30 - 10:30 am
-              .details
-                %h4 Putting Grasslands to Work: Investing in People and Land
-                %ul
-                  %li Hunter Lovins, Founder and President, Natural Capital Solutions
-                  %li Katherine Collins, Founder and CEO, Honeybee Capital
-            .row
-              .time 10:30 - 11:00 am
-              .details
-                %h4 Break
-            .row
-              .time 11:00 - 12:00 pm
-              .details
-                %h4 Putting Grasslands to Work: Connecting the Public with Regeneration
-                %ul
-                  %li John D. Liu, Filmmaker and Director, Environmental Education Media Project
-                  %li Slow Food International, Speaker TBD
-            .row
-              .time 12:00 - 1:00 pm
-              .details
-                %h4 Lunch
-            .row
-              .time 1:00 - 2:00 pm
-              .details
-                %h4 Putting Grasslands to Work: A Conversation About Innovation in Farming
-                %ul
-                  %li Peter Byck, Producer, Carbon Nation
-                  %li Graham Harvey, Pasture Promise TV
-                  %li Tim May, farmer, Kingsclere Estate
-            .row
-              .time 2:00 - 2:40 pm
-              .details
-                %h4 Putting Grasslands to Work: A Conversation About Agriculture's Role in Human Health
-                %ul
-                  %li Daphne Miller, Author, <em>Farmacology</em>
-            .row
-              .time 2:40 - 3:00 pm
-              .details
-                %h4 Break
-            .row
-              .time 3:00- 3:45 pm
-              .details
-                %h4 Putting Grasslands to Work: Breakout Conversations
-
-                %h5 CT#1: It's All About Soil Life
-                %ul
-                  %li Elaine Ingham, Founder, Soil Foodweb Inc.
-                  %li Byron Shelton, Program Director, Savory Institute
-
-                %h5 CT#2: Doctor Turned Farmer: Understanding How Gut Flora Affects Overall Well-Being
-                %ul
-                  %li Dr. Natasha Campbell McBride, Neurologist and Author, Developer of the GAPS Diet
-                  %li Judith Schwartz, author, <em>Cows Save the Planet</em>
-
-                %h5 CT#3: What is a Savory Hub?
-                %ul
-                  %li Tré Cates, COO/CFO, Savory Institute
-                  %li Doug Warnock, USA PNW Hub
-
-                %h5 CT#4 Putting Grasslands to Work: Large-Scale Shepherding on Public Lands in Urban Areas
-                %ul
-                  %li Brittany Cole Bush, Modern Day Urban Shepherdess, Star Creek Co. Land Stewards
-                  %li Beth Robinette, Director of Marketing, Lazy R Ranch Grassfed Beef
-
-                %h5 CT#5: Nature Functions in Wholes
-                %ul
-                  %li Owen Hablutzel, Specialist in Permaculture and Holistic Management
-                  %li Jim Howell, CEO, Grasslands, LLC
-
-                %h5 CT#6: Human Health: A Cooking Demonstration
-                %ul
-                  %li Sarah Fragoso, Author, Everyday Paleo
-                  %li Taylor Collins, Co-founder, Epic Bar
-
-                %h5 CT #7: Using Livestock to Sequester Carbon
-                %ul
-                  %li Courtney White, Author, Grass, Soil, Hope
-                  %li Daniela Ibarra-Howell, CEO, Savory Institution
-
-                %h5 CT #8: The Hard Science and Citizen Science View of Climate Change
-                %ul
-                  %li Seth Itzkan, Planet Tech
-                  %li Jason RownTree, Michigan State University
-
-            .row
-              .time 3:45 - 4:00 pm
-              .details
-                %h4 Break
-
-            .row
-              .time 4:00 - 5:00 pm
-              .details
-                %h4 Demonstration: Traditional Old-World Meat Cutting
-                %ul
-                  %li Brandon Sheard, Farmstead Meatsmith
-
-            .row
-              .time 5:00 - 5:30 pm
-              .details
-                %h4 Putting Grasslands to Work: The Next Generation of Savory Hubs
-                %h5 Introduce Next 2014 Savory Hubs
-                %ul
-                  %li <strong>Moderator:</strong> Tré Cates, COO/CFO, Savory Institute
-            .row
-              .time 5:30 - 6:30 pm
-              .details
-                %h4 Putting Grasslands to Work: A Conversation About HOPE and OPTIMISM
-                %ul
-                  %li Mark Stevenson, Author, <em>Optimist's Tour of the Future</em>, UK
-                  %li Allan Savory, President and Co-Founder, Savory Institute
-            .row
-              .time 6:30 - 7:00 pm
-              .details
-                %h4 Closing: Putting Grasslands to Work...the Conversations Must Continue
-                %ul
-                  %li Daniela Ibarra-Howell, CEO, Savory Institute
-                  %li Tré Cates, COO/CFO, Savory Institute
-
-        %li.tab-header-and-content
-          =link_to 'Fri, Aug 1', '#', :class => 'tab-link'
+          =link_to 'Fri, Aug 1', '#', :class => 'tab-link is-active'
           .tab-content
             .row
               .time
@@ -390,163 +413,141 @@
               .details
                 %h4 Evening Film TBD
 
-%section.main#speaker-bios
-  .container
-    %h2 Speaker Bios
-    %p We’ve put together a stellar line-up of presenters. Our goal has been to build an arrangement of dynamic speakers who are experts in the fields of soil science, climate change, permaculture, range science, the local food movement, human health, conservation biology, and alternative finance. Holistic Management will be the central piece tying it all together. In addition to these presenters, you can also be sure to expect updates from our returning 2013 Hub Leaders as well as introducing new 2014 Hub Leaders. There will also be presentations from the Savory Institute Executive Team, and the Grasslands LLC Executive Team as well as working land managers and ranchers from around the globe.
 
-  .container
-    %li.block
-      %a{href: '/bios/justin-adams'}
-        =image_tag('bios/justin.jpg', :alt => 'Justin Adams')
-        .name Justin Adams
-    %li.block
-      %a{href: '/bios/brittany-cole-bush'}
-        =image_tag('bios/brittany.jpg', :alt => 'Brittany Cole Bush')
-        .name Brittany Cole Bush
-    %li.block
-      %a{href: '/bios/peter-byck'}
-        =image_tag('bios/peter.jpg', :alt => 'Peter Byck')
-        .name Peter Byck
-    %li.block
-      %a{href: '/bios/natasha-campbell-mcbride'}
-        =image_tag('bios/natasha.jpg', :alt => 'Natasha Campbell-McBride')
-        .name Natasha Campbell-McBride
-    %li.block
-      %a{href: '/bios/tre-cates'}
-        =image_tag('bios/tre.jpg', :alt => 'Tré Cates')
-        .name Tré Cates
-    %li.block
-      %a{href: '/bios/katherine-collins'}
-        =image_tag('bios/katherine.jpg', :alt => 'Katherine Collins')
-        .name Katherine Collins
-    %li.block
-      %a{href: '/bios/darren-doherty'}
-        =image_tag('bios/darren.jpg', :alt => 'Darren Doherty')
-        .name Darren Doherty
-    %li.block
-      %a{href: '/bios/sarah-fragoso'}
-        =image_tag('bios/sarah.jpg', :alt => 'Sarah Fragoso')
-        .name Sarah Fragoso
-    %li.block
-      %a{href: '/bios/hannah-gosnell'}
-        =image_tag('bios/hannah.jpg', :alt => 'Hannah Gosnell')
-        .name Hannah Gosnell
-    %li.block
-      %a{href: '/bios/owen-hablutzel'}
-        =image_tag('bios/owen.jpg', :alt => 'Owen Hablutzel')
-        .name Owen Hablutzel
-    %li.block
-      %a{href: '/bios/mimi-hillenbrand'}
-        =image_tag('bios/mimi.jpg', :alt => 'Mimi Hillenbrand')
-        .name Mimi Hillenbrand
-    %li.block
-      %a{href: '/bios/graham-harvey'}
-        =image_tag('bios/graham.jpg', :alt => 'Graham Harvey')
-        .name Graham Harvey
-    %li.block
-      %a{href: '/bios/patrick-holden'}
-        =image_tag('bios/patrick.jpg', :alt => 'Patrick Holden')
-        .name Patrick Holden
-    %li.block
-      %a{href: '/bios/jim-howell'}
-        =image_tag('bios/jim.jpg', :alt => 'Jim Howell')
-        .name Jim Howell
-    %li.block
-      %a{href: '/bios/daniela-howell'}
-        =image_tag('bios/dan.jpg', :alt => 'Daniela Ibarra-Howell')
-        .name Daniela Ibarra-Howell
-    %li.block
-      %a{href: '/bios/elaine-ingham'}
-        =image_tag('bios/elaine.jpg', :alt => 'Dr. Elaine Ingham')
-        .name Dr. Elaine Ingham
-    %li.block
-      %a{href: '/bios/seth-itzkan'}
-        =image_tag('bios/seth.jpg', :alt => 'Seth Itzkan')
-        .name Seth Itzkan
-    %li.block
-      %a{href: '/bios/chris-kerston'}
-        =image_tag('bios/chris.jpg', :alt => 'Chris Kerston')
-        .name Chris Kerston
-    %li.block
-      %a{href: '/bios/victoria-kindred-keziah'}
-        =image_tag('bios/victoria.jpg', :alt => 'Victoria Kindred Keziah')
-        .name Victoria Kindred Keziah
-    %li.block
-      %a{href: '/bios/chad-kruger'}
-        =image_tag('bios/chad.jpg', :alt => 'Chad Kruger')
-        .name Chad Kruger
-    %li.block
-      %a{href: '/bios/martien-lankester'}
-        =image_tag('bios/martien.jpg', :alt => 'Martien Lankester')
-        .name Martien Lankester
-    %li.block
-      %a{href: '/bios/john-liu'}
-        =image_tag('bios/john.jpg', :alt => 'John Liu')
-        .name John Liu
-    %li.block
-      %a{href: '/bios/tony-lovell'}
-        =image_tag('bios/tony.jpg', :alt => 'Tony Lovell')
-        .name Tony Lovell
-    %li.block
-      %a{href: '/bios/hunter-lovins'}
-        =image_tag('bios/hunter.jpg', :alt => 'Hunter Lovins')
-        .name Hunter Lovins
-    %li.block
-      %a{href: '/bios/daphne-miller'}
-        =image_tag('bios/daphne.jpg', :alt => 'Dr. Daphne Miller')
-        .name Dr. Daphne Miller
-    %li.block
-      %a{href: '/bios/jason-rowntree'}
-        =image_tag('bios/jason.jpg', :alt => 'Jason Rowntree')
-        .name Jason Rowntree
-    %li.block
-      %a{href: '/bios/joel-salatin'}
-        =image_tag('bios/joel.jpg', :alt => 'Joel Salatin')
-        .name Joel Salatin
-    %li.block
-      %a{href: '/bios/allan-savory'}
-        =image_tag('bios/allan.jpg', :alt => 'Allan Savory')
-        .name Allan Savory
-    %li.block
-      %a{href: '/bios/judith-schwartz'}
-        =image_tag('bios/judith.jpg', :alt => 'Judy Schwartz')
-        .name Judy Schwartz
-    %li.block
-      %a{href: '/bios/brandon-sheard'}
-        =image_tag('bios/brandon.jpg', :alt => 'Brandon Sheard')
-        .name Brandon Sheard
-    %li.block
-      %a{href: '/bios/mark-stevenson'}
-        =image_tag('bios/mark.jpg', :alt => 'Mark Stevenson')
-        .name Mark Stevenson
-    %li.block
-      %a{href: '/bios/richard-teague'}
-        =image_tag('bios/richard.jpg', :alt => 'Richard Teague')
-        .name Richard Teague
-    %li.block
-      %a{href: '/bios/courtney-white'}
-        =image_tag('bios/courtney.jpg', :alt => 'Courtney White')
-        .name Courtney White
+        %li.tab-header-and-content
+          =link_to 'Sat, Aug 2', '#', :class => 'tab-link'
+          .tab-content
+            .row
+              .time 8:00 - 8:30 am
+              .details
+                %h4 Coffee, Tea, Pastries
+            .row
+              .time 8:30 - 9:30 am
+              .details
+                %h4 A Celebration of Genius — Tribute to Bruce Ward
+                %ul
+                  %li Allan Savory, President, Savory Institute
+                  %li Suzie Ward, Co-Founder, Holistic Results
+                  %li Tony Lovell, CEO, SLM
 
+            .row
+              .time 9:30 - 10:30 am
+              .details
+                %h4 Putting Grasslands to Work: Investing in People and Land
+                %ul
+                  %li Hunter Lovins, Founder and President, Natural Capital Solutions
+                  %li Katherine Collins, Founder and CEO, Honeybee Capital
+            .row
+              .time 10:30 - 11:00 am
+              .details
+                %h4 Break
+            .row
+              .time 11:00 - 12:00 pm
+              .details
+                %h4 Putting Grasslands to Work: Connecting the Public with Regeneration
+                %ul
+                  %li John D. Liu, Filmmaker and Director, Environmental Education Media Project
+                  %li Slow Food International, Speaker TBD
+            .row
+              .time 12:00 - 1:00 pm
+              .details
+                %h4 Lunch
+            .row
+              .time 1:00 - 2:00 pm
+              .details
+                %h4 Putting Grasslands to Work: A Conversation About Innovation in Farming
+                %ul
+                  %li Peter Byck, Producer, Carbon Nation
+                  %li Graham Harvey, Pasture Promise TV
+                  %li Tim May, farmer, Kingsclere Estate
+            .row
+              .time 2:00 - 2:40 pm
+              .details
+                %h4 Putting Grasslands to Work: A Conversation About Agriculture's Role in Human Health
+                %ul
+                  %li Daphne Miller, Author, <em>Farmacology</em>
+            .row
+              .time 2:40 - 3:00 pm
+              .details
+                %h4 Break
+            .row
+              .time 3:00- 3:45 pm
+              .details
+                %h4 Putting Grasslands to Work: Breakout Conversations
 
+                %h5 CT#1: It's All About Soil Life
+                %ul
+                  %li Elaine Ingham, Founder, Soil Foodweb Inc.
+                  %li Byron Shelton, Program Director, Savory Institute
 
-%section.main.tour#tour
-  =image_tag('tour.jpg')
-  .container
-    %h2 Optional Tour of Scandinavian Hub: Scandinavian Mountain Graze
-    %h3 August 4<sup>th</sup>&ndash;9<sup>th</sup>, 2014 directly following the Savory Institute conference in London
-    %p The Savory Institute Scandinavian Hub supports a mountain community that is both innovative and beautiful. With a colorful history of grazing, Fjallbete has a desire to foster interaction and lasting relationships with fellow Hubs and interested people from around the world dedicated to the advancement of Holistic Management. We invite you on an all-inclusive trip to come&nbsp;visit!
+                %h5 CT#2: Doctor Turned Farmer: Understanding How Gut Flora Affects Overall Well-Being
+                %ul
+                  %li Dr. Natasha Campbell McBride, Neurologist and Author, Developer of the GAPS Diet
+                  %li Judith Schwartz, author, <em>Cows Save the Planet</em>
 
-    %a{href: 'http://www.savoryinstitute.com/media/52027/scandinavianmountaingraze_v2.pdf', target: '_blank'}
-      %button.alt-btn
-        %i.fa.fa-file-pdf-o
-        More Info
-    =link_to '#buy-tickets' do
-      %button
-        %i.fa.fa-ticket
-        Buy Tickets <small>$2625 | £1565</small>
+                %h5 CT#3: What is a Savory Hub?
+                %ul
+                  %li Tré Cates, COO/CFO, Savory Institute
+                  %li Doug Warnock, USA PNW Hub
 
+                %h5 CT#4 Putting Grasslands to Work: Large-Scale Shepherding on Public Lands in Urban Areas
+                %ul
+                  %li Brittany Cole Bush, Modern Day Urban Shepherdess, Star Creek Co. Land Stewards
+                  %li Beth Robinette, Director of Marketing, Lazy R Ranch Grassfed Beef
+
+                %h5 CT#5: Nature Functions in Wholes
+                %ul
+                  %li Owen Hablutzel, Specialist in Permaculture and Holistic Management
+                  %li Jim Howell, CEO, Grasslands, LLC
+
+                %h5 CT#6: Human Health: A Cooking Demonstration
+                %ul
+                  %li Sarah Fragoso, Author, Everyday Paleo
+                  %li Taylor Collins, Co-founder, Epic Bar
+
+                %h5 CT #7: Using Livestock to Sequester Carbon
+                %ul
+                  %li Courtney White, Author, Grass, Soil, Hope
+                  %li Daniela Ibarra-Howell, CEO, Savory Institution
+
+                %h5 CT #8: The Hard Science and Citizen Science View of Climate Change
+                %ul
+                  %li Seth Itzkan, Planet Tech
+                  %li Jason RownTree, Michigan State University
+
+            .row
+              .time 3:45 - 4:00 pm
+              .details
+                %h4 Break
+
+            .row
+              .time 4:00 - 5:00 pm
+              .details
+                %h4 Demonstration: Traditional Old-World Meat Cutting
+                %ul
+                  %li Brandon Sheard, Farmstead Meatsmith
+
+            .row
+              .time 5:00 - 5:30 pm
+              .details
+                %h4 Putting Grasslands to Work: The Next Generation of Savory Hubs
+                %h5 Introduce Next 2014 Savory Hubs
+                %ul
+                  %li <strong>Moderator:</strong> Tré Cates, COO/CFO, Savory Institute
+            .row
+              .time 5:30 - 6:30 pm
+              .details
+                %h4 Putting Grasslands to Work: A Conversation About HOPE and OPTIMISM
+                %ul
+                  %li Mark Stevenson, Author, <em>Optimist's Tour of the Future</em>, UK
+                  %li Allan Savory, President and Co-Founder, Savory Institute
+            .row
+              .time 6:30 - 7:00 pm
+              .details
+                %h4 Closing: Putting Grasslands to Work...the Conversations Must Continue
+                %ul
+                  %li Daniela Ibarra-Howell, CEO, Savory Institute
+                  %li Tré Cates, COO/CFO, Savory Institute
 
 
 %section.sponsors#sponsors
@@ -612,25 +613,25 @@
 
 
 
-/ %section.main#buy-tickets
-/   .container
-/     %h2 Buy Tickets
-/     %ul
-/       %li
-/         %strong Early Bird Special:
-/         Get your tickets before July 1<sup>st</sup> for $100 (£70) discount
-/       %li If you are an <a href='https://www.eventbrite.com/e/savory-institute-international-conference-registration-11051105153'>active student</a> you may purchase your tickets for $299 (£180). You will be required to bring your high school or College/University photo ID card upon admission.
-/       %li If you are a <a href='https://www.eventbrite.com/e/savory-institute-international-conference-registration-11051105153'>Savory Institute accredited Holistic Management Professional</a> you may also purchase at this price.
+%section.main#buy-tickets
+  .container
+    %h2 Buy Tickets
+    %ul
+      %li
+        %strong Early Bird Special:
+        Get your tickets before July 1<sup>st</sup> for $100 (£70) discount
+      %li If you are an <a href='https://www.eventbrite.com/e/savory-institute-international-conference-registration-11051105153'>active student</a> you may purchase your tickets for $299 (£180). You will be required to bring your high school or College/University photo ID card upon admission.
+      %li If you are a <a href='https://www.eventbrite.com/e/savory-institute-international-conference-registration-11051105153'>Savory Institute accredited Holistic Management Professional</a> you may also purchase at this price.
 
 
-/   .container
-/     .iframe-holder
-/       %h3 US Dollars
-/       %iframe{:allowtransparency => "true", :frameborder => "0", :height => "510", :hspace => "0", :marginheight => "5", :marginwidth => "5", :src => "//eventbrite.com/tickets-external?eid=11051105153&ref=etckt", :vspace => "0", :width => "100%"}
+  .container
+    .iframe-holder
+      %h3 US Dollars
+      %iframe{:allowtransparency => "true", :frameborder => "0", :height => "510", :hspace => "0", :marginheight => "5", :marginwidth => "5", :src => "//eventbrite.com/tickets-external?eid=11051105153&ref=etckt", :vspace => "0", :width => "100%"}
 
-/   .container
-/     .iframe-holder
-/       %h3 British Pound
-/       %iframe{:allowtransparency => "true", :frameborder => "0", :height => "510", :hspace => "0", :marginheight => "5", :marginwidth => "5", :src => "//eventbrite.com/tickets-external?eid=11765782773&ref=etckt", :vspace => "0", :width => "100%"}
+  .container
+    .iframe-holder
+      %h3 British Pound
+      %iframe{:allowtransparency => "true", :frameborder => "0", :height => "510", :hspace => "0", :marginheight => "5", :marginwidth => "5", :src => "//eventbrite.com/tickets-external?eid=11765782773&ref=etckt", :vspace => "0", :width => "100%"}
 
 
